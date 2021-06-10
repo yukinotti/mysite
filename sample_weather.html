@@ -1,7 +1,7 @@
 <script>
     //現在の天気を取得する場所の名前
     let targetCityName = "kamakura";
-    let appId = "ここに取得したappId";
+    let appId = "f9794935a670f65e810fe0253ce78aa8";
 
     const requestUrl = "https://api.openweathermap.org/data/2.5/weather?APPID=" + appId + "&lang=ja&units=metric&q=" + targetCityName + ",jp;";
 
@@ -37,3 +37,4 @@
         console.log("気温は" + temp + "度です。");
 
     }
+</script>
